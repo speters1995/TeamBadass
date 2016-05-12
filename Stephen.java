@@ -1,9 +1,10 @@
 package FinalProject;
 
-public class Stephen {import java.io.BufferedReader;
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+public class Stephen {
 	public static void GPU() {        
 	    try {
 
