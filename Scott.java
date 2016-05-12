@@ -1,4 +1,4 @@
-package FinalProject;
+package javaFinal;
 
 /*
  * Scott Peters
@@ -8,7 +8,7 @@ package FinalProject;
 
 public class Scott {
 
-	
+	 
 
 	public static void Format() {
 		System.out.println("*****************************");
@@ -44,9 +44,9 @@ public class Scott {
 		System.out.println("Users Home Directory:" + System.getProperty(userHome));
 		System.out.println("Users Current Working Directory:" + System.getProperty(userDir));
 	}
-
-	
 	}
+	
+	
 
 
 
@@ -66,3 +66,4 @@ public class Scott {
  * http://www.codejava.net/java-se/file-io/listing-all-drives-with-type-total-
  * space-and-free-space-in-java
  */
+

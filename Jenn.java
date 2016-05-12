@@ -1,4 +1,4 @@
-package FinalProject;
+package javaFinal;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -9,7 +9,8 @@ import java.net.UnknownHostException;
 
 public class Jenn {
 	
-	public static void MyIp() {
+	public static void jenn() {
+		Scott.Format();
 		URL url = null;
 	        BufferedReader in = null;
 	        String ipAddress = "";
@@ -40,9 +41,9 @@ public class Jenn {
 	        System.out.println("IP Address: " + ipAddress);
 	    }
 
-public static void test(){
+public static void InternalIp(){
 
-
+	Scott.Format();
 	try {
 	  InetAddress addr = InetAddress.getLocalHost();            
 	  System.out.println("Internal Address: " + addr.getHostAddress());
@@ -52,4 +53,3 @@ public static void test(){
 }
 }
 
-	
