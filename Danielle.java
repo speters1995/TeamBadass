@@ -1,51 +1,71 @@
-package FinalProject;
+package javaFinal;
 
-import java.io.File;
 
-import javax.swing.filechooser.FileSystemView;
+ 
+ 
+ import java.io.File; 
+ 
+ 
+ import javax.swing.filechooser.FileSystemView; 
+ 
+ 
+ public class Danielle { 
+ 
+ 
+	public static void danielle() { 
+		Scott.Format();
+ 		FileSystemView fsv = FileSystemView.getFileSystemView(); 
 
-public class Danielle {
+ 
+	File[] drives = File.listRoots(); 
+		if (drives != null && drives.length > 0) { 
+			for (File aDrive : drives) { 
+				System.out.println("Drive Letter: " + aDrive); 
+ 				System.out.println("\tType: " + fsv.getSystemTypeDescription(aDrive)); 
+ 				System.out.println("\tTotal space: " + aDrive.getTotalSpace()); 
+ 				System.out.println("\tFree space: " + aDrive.getFreeSpace()); 
+ 				System.out.println(); 
+ 			} 
+ 		} 
+} 
+ 	 
+	public static void DiskSpace() { 
 
-	public static void MemInfo() {
-		FileSystemView fsv = FileSystemView.getFileSystemView();
+ 		File diskPartition = new File("C:"); 
+		 
+ 
+ 
+ 		long totalCapacity = diskPartition.getTotalSpace(); 
 
-		File[] drives = File.listRoots();
-		if (drives != null && drives.length > 0) {
-			for (File aDrive : drives) {
-				System.out.println("Drive Letter: " + aDrive);
-				System.out.println("\tType: " + fsv.getSystemTypeDescription(aDrive));
-				System.out.println("\tTotal space: " + aDrive.getTotalSpace());
-				System.out.println("\tFree space: " + aDrive.getFreeSpace());
-				System.out.println();
-			}
-		}
-}
-	
-	public static void DiskSpace() {
+ 
+ 		long freePartitionSpace = diskPartition.getFreeSpace(); 
+ 
 
-		File diskPartition = new File("C:");
-		
+ 		long usablePatitionSpace = diskPartition.getUsableSpace(); 
+ 
+ 
+ 		System.out.println("**** Sizes in Mega Bytes ****\n"); 
+ 
+ 
+ 		System.out.println("Total C partition size : " + totalCapacity / (1024 * 1024) + " MB"); 
 
-		long totalCapacity = diskPartition.getTotalSpace();
+ 
+		System.out.println("Usable Space : " + usablePatitionSpace / (1024 * 1024) + " MB"); 
+ 
+ 
+ 		System.out.println("Free Space : " + freePartitionSpace / (1024 * 1024) + " MB"); 
 
-		long freePartitionSpace = diskPartition.getFreeSpace();
+ 
+		System.out.println("\n**** Sizes in Giga Bytes ****\n"); 
 
-		long usablePatitionSpace = diskPartition.getUsableSpace();
+ 
+		System.out.println("Total C partition size : " + totalCapacity / (1024 * 1024 * 1024) + " GB"); 
+ 
+ 
+ 		System.out.println("Usable Space : " + usablePatitionSpace / (1024 * 1024 * 1024) + " GB"); 
+ 
+ 
+ 		System.out.println("Free Space : " + freePartitionSpace / (1024 * 1024 * 1024) + " GB"); 
+ 	} 
+ } 
 
-		System.out.println("**** Sizes in Mega Bytes ****\n");
-
-		System.out.println("Total C partition size : " + totalCapacity / (1024 * 1024) + " MB");
-
-		System.out.println("Usable Space : " + usablePatitionSpace / (1024 * 1024) + " MB");
-
-		System.out.println("Free Space : " + freePartitionSpace / (1024 * 1024) + " MB");
-
-		System.out.println("\n**** Sizes in Giga Bytes ****\n");
-
-		System.out.println("Total C partition size : " + totalCapacity / (1024 * 1024 * 1024) + " GB");
-
-		System.out.println("Usable Space : " + usablePatitionSpace / (1024 * 1024 * 1024) + " GB");
-
-		System.out.println("Free Space : " + freePartitionSpace / (1024 * 1024 * 1024) + " GB");
-	}
-}
