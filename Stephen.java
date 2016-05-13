@@ -1,4 +1,4 @@
-package FinalProject;
+package javaFinal;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
