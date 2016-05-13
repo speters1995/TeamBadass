@@ -30,8 +30,8 @@ public class B3 {
 	                public void actionPerformed(ActionEvent ev) {
 	                	System.out.println("Hardware");
 	                	//Call classes for Hardware
-	                	Steven.GPU();
-	                	Steven.Ram();
+	                	Stephen.GPU();
+	                	Stephen.Ram();
 	                	Matt.matt();
 	                    Danielle.danielle();
         				  new Output();
