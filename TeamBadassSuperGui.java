@@ -1,5 +1,3 @@
-package javaFinal;
-
 public class TeamBadassSuperGui {
 
 

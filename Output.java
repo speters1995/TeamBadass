@@ -1,6 +1,3 @@
-package javaFinal;
-
-
 import java.awt.FlowLayout;
 import java.util.Scanner;
 

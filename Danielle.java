@@ -1,8 +1,3 @@
-package javaFinal;
-
-
- 
- 
  import java.io.File; 
  
  

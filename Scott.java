@@ -1,4 +1,3 @@
-package javaFinal;
 
 /*
  * Scott Peters
