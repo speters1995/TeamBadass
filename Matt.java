@@ -6,6 +6,7 @@ public class Matt {
 	
 	public static String matt() {
 		Scott.Format();
+		//Prints out the CPU info. Scott helped me on this.
 	System.out.println("CPU Name/Model:" + (System.getenv("PROCESSOR_IDENTIFIER")));
 	System.out.println("CPU Architecture:" + (System.getenv("PROCESSOR_ARCHITECTURE")));
 	System.out.println("CPU Bit:" + (System.getenv("PROCESSOR_ARCHITEW6432")));

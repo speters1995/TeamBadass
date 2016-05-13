@@ -15,6 +15,7 @@ public class Scott {
 	}
 
 	public static void OSInfo() {
+		Scott.Format();
 		String nameOS = "os.name";
 		String versionOS = "os.version";
 		String architectureOS = "os.arch";
@@ -26,6 +27,7 @@ public class Scott {
 	}
 
 	public static void JavaInfo() {
+		Scott.Format();
 		String javaVer = "java.vm.specification.version";
 		String javaRunVer = "java.specification.version";
 
@@ -35,6 +37,7 @@ public class Scott {
 	}
 
 	public static void UserInfo() {
+		Scott.Format();
 		String userName = "user.name";
 		String userHome = "user.home";
 		String userDir = "user.dir";
