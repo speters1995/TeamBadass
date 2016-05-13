@@ -1,7 +1,3 @@
-package javaFinal;
-
-
-
 public class Matt {
 	
 	public static String matt() {
