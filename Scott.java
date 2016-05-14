@@ -55,7 +55,5 @@ public class Scott {
 
 /*
  * http://www.roseindia.net/java/beginners/OSInformation.shtml
- * 
- * http://www.codejava.net/java-se/file-io/listing-all-drives-with-type-total-space-and-free-space-in-java
  */
 
