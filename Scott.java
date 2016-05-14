@@ -3,17 +3,17 @@
 /*
  * Scott Peters
  * CS-187 Final Project
- * 
+ * OS, User, Java Information.
  */
 
 public class Scott {
 
 	 
-
+// Created a simple format to seperate information.
 	public static void Format() {
 		System.out.println("*****************************");
 	}
-
+// Created getters to get Information on the OS by using the System,getProperty
 	public static void OSInfo() {
 		Scott.Format();
 		String nameOS = "os.name";
@@ -25,7 +25,7 @@ public class Scott {
 		System.out.println("Version of the OS: " + System.getProperty(versionOS));
 		System.out.println("Architecture of The OS: " + System.getProperty(architectureOS));
 	}
-
+// Used getProperty to display what java version is installed for both VM, and actual java.
 	public static void JavaInfo() {
 		Scott.Format();
 		String javaVer = "java.vm.specification.version";
@@ -35,7 +35,7 @@ public class Scott {
 		System.out.println("Java VM Version:" + System.getProperty(javaVer));
 		System.out.println("Java Runtime Version:" + System.getProperty(javaRunVer));
 	}
-
+// Lastly by using the getProperty i then get the User information.
 	public static void UserInfo() {
 		Scott.Format();
 		String userName = "user.name";
@@ -56,17 +56,10 @@ public class Scott {
 /*
  * http://www.roseindia.net/java/beginners/OSInformation.shtml
  * 
- * CPU Info---
- * http://forums.devshed.com/java-help-9/cpu-specs-processor-name-speed-ram-name
- * -size-etc-635566.html
  * 
- * Internet Info---
- * http://stackoverflow.com/questions/17007450/how-to-check-internet-
- * connectivity-in-java
  * 
- * Disk --- http://www.javabeat.net/java-check-hard-disk-removable-disk/
+ * Internet Info---http://stackoverflow.com/questions/17007450/how-to-check-internet-connectivity-in-java
  * 
- * http://www.codejava.net/java-se/file-io/listing-all-drives-with-type-total-
- * space-and-free-space-in-java
+ * http://www.codejava.net/java-se/file-io/listing-all-drives-with-type-total-space-and-free-space-in-java
  */
 
