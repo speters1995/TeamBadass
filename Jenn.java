@@ -1,5 +1,5 @@
 
-
+// Jenn
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.InetAddress;
@@ -53,3 +53,4 @@ public static void InternalIp(){
 }
 }
 
+// Lost Cite Do to copy and paceing 
