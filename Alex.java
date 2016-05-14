@@ -1,5 +1,5 @@
 
-
+// Alex
 import java.io.IOException;  
 import java.net.InetSocketAddress;  
 import java.net.Socket;  
@@ -30,3 +30,4 @@ import java.net.Socket;
    		}  
    	}  
     }
+//http://stackoverflow.com/questions/17007450/how-to-check-internet-connectivity-in-java
