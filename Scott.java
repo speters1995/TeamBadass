@@ -56,10 +56,6 @@ public class Scott {
 /*
  * http://www.roseindia.net/java/beginners/OSInformation.shtml
  * 
- * 
- * 
- * Internet Info---http://stackoverflow.com/questions/17007450/how-to-check-internet-connectivity-in-java
- * 
  * http://www.codejava.net/java-se/file-io/listing-all-drives-with-type-total-space-and-free-space-in-java
  */
 
